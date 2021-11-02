@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background-color:lightblue;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.To-Do-List-Container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    justify-items: center;
+    background-color: white;
+    border-radius: 15px;
+    border-style: groove;
+    border-color:black ;
+    width: 60%;
+    height: 75%;
+}
+.Input-Container{
+    justify-content: center;
+    padding-top: 20px;
+    display: flex;
+}
+.List-Container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 20px;
+}
+.List-Item{
+    display: flex;
+    
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.List-Title{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
